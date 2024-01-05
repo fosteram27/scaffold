@@ -25,6 +25,6 @@ jobs:
       run: |
         pip install pytest-cov
         make test
-    - name: Format code
-      run: |
-        make format
+    #- name: Format code
+    #  run: |
+    #    make format
