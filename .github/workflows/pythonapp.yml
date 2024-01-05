@@ -23,6 +23,7 @@ jobs:
         make lint
     - name: Test with pytest
       run: |
+        pip install pytest-cov
         make test
     - name: Format code
       run: |
